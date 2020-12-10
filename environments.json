@@ -1,0 +1,14 @@
+{
+  "dev": {
+    "title": "This is the dev environment",
+    "anotherAttribute": "Hello dev, I was configured with Docker!"
+  },
+  "uat": {
+    "title": "This is the uat environment",
+    "anotherAttribute": "Hello uat, I was configured with Docker!"
+  },
+  "prod": {
+    "title": "This is the prod environment",
+    "anotherAttribute": "Hello prod, I was configured with Docker!"
+  }
+}

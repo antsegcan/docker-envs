@@ -1,0 +1,23 @@
+{
+  "name": "docker-env",
+  "version": "1.0.0",
+  "description": "A simple project to show you how to customize some parameters for different images when you are thinking in CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "docker",
+    "cicd"
+  ],
+  "author": "antsegcan@gmail.com (http://github.com/GOYUSO)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
